@@ -11,6 +11,7 @@ LearnHub is a web application that serves as a hub for educational videos. Users
 - **Ant Design**: A design system and React UI library.
 - **Tailwind CSS**: A utility-first CSS framework for rapid UI development.
 - **Vite**: A fast and modern build tool for modern web applications.
+- **TypeScript**: A statically typed superset of JavaScript that adds optional static typing to the language.
 
 ## Prerequisites
 
@@ -19,11 +20,19 @@ LearnHub is a web application that serves as a hub for educational videos. Users
 
 ## Getting Started
 
-1. Clone the repository: `git clone https://github.com/your-username/learnhub.git`
+1. Clone the repository: `git clone https://github.com/your-username/learnhub-app.git`
 2. Navigate to the project directory: `cd learnhub`
 3. Install dependencies: `npm install`
 4. Start the development server: `npm run dev`
 5. Open your browser and visit `http://localhost:3000` to view the application.
+
+## Environment Variables
+
+The project requires the following environment variables to be set:
+
+- `API_HOST`: The base URL for the API endpoint.
+
+You can create a `.env` file in the project root and define the required environment variables there.
 
 ## Project Structure
 
